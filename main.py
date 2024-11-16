@@ -1,6 +1,6 @@
 import json
 
-number = int(input("Введите номер квалификации: "))
+number = input("Введите номер квалификации: ")
 find = False
 
 with open("dump.json", 'r', encoding='utf-8') as file: 
